@@ -2,8 +2,6 @@
 //   .then(res => res.json())
 //   .then(data => console.log(data));
 
-fetch(
-  'https://gateway-rjebnrx5ja-uc.a.run.app/credit_score_impact/500?origin=homepage'
-)
+fetch('https://gateway-rjebnrx5ja-uc.a.run.app/credit_score_impact/500')
   .then(res => res.json())
   .then(data => console.log(data));
